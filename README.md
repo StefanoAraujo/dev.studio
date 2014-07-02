@@ -5,29 +5,35 @@ Add animations and interactions to any web easily.
 
 #Overview
 
-AniJS Studio es una extension de chrome, que le permitirá crear, probar y añadir prototipos de animaciones a cualquier pagina o aplicación web fácilmente.
+Aqui va un gif grande animado de lo que se puede hacer. O sea tomado del video de Google.
 
-Gracias a su intuitiva interfaz de usuario, usted podrá con solo unos pocos click agregar las animaciones, sin tener que lidear con el código javascript o css.
-
-Usted podrá integrar las animaciones definidas con su entorno de producción con solo copiar y pegar.
-You can easily integrate it with your existing code. 
+**AniJS Studio** is a chrome extension that will allow you to create, test, and add animations prototypes to any webpage, or web application easily.
 
 
-It supports all modern desktop and mobile browsers. Work well in iPad, iPhone, Android and the modern browsers. ;)
+Thanks to it's intuitive user interface, you will be able to add animations with a few clicks and without dealing with javascript or css code.
 
-Está basado en la biblioteca de código abierto AniJS la cúal es Easy to use | Compact - around 7.7kb after gzipping | There is no need for third party libraries.
+You can easily integrate it with your existing code, just copy and paste actions. 
+
+It supports all modern desktop and mobile browsers.
+
+
+It is based on the open source library AniJS, which is compact - around 7.7kb after gzipping | There is no need for third party libraries.
+
+
 
 #Examples
 
 See all the examples (here)[https://www.youtube.com/playlist?list=PLUVvd_W7urmg5iEmCATQS4ekARgyshUZa]
 
-If you are encorauge summit your own video to this, and share with others.
+Respond to the challenge and submit your own examples to [] and share them with other developers.
 
 #Learn 
 
-##The AniJS Sintax.
+##Adding Animations.
 
 Para agregar las animaciones se usa la sintaxis de AniJS.
+
+To add the animations AniJS sintaxes are used.
 
 if (some event), on (some element), do(some animation), to(some target)
 
@@ -38,6 +44,8 @@ Gif animado mostrando como se seleccionan las cosas.
 
 ##Save and Real Code Integration.
 Para integrar las animaciones adicionadas con el codigo existente, usted debe completar 3 simples pasos.
+
+To integrate the added animations with the existing code you most fullfill 3 simples steps. 
 
 -1 Blal
 
@@ -52,7 +60,9 @@ Gif animado de los pasos.
 
 
 ##Importing data.
-	Usted puede importar el codigo generado previamente.
+	Usted puede importar las animaciones creadas previamente usando la the import feature.
+
+	You can load animations (previusly created) using the import feature. 
 
 #AniJS
 

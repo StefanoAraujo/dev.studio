@@ -14,33 +14,15 @@
         font-size: 20px;
 font-style: normal;
 margin-left: 20px;
-}.flaticon-air1:before {
+}.flaticon-air:before {
 	content: "\e000";
 }
-.flaticon-chrome4:before {
+.flaticon-air1:before {
 	content: "\e001";
 }
-.flaticon-hot9:before {
+.flaticon-couple17:before {
 	content: "\e002";
 }
-.flaticon-magic14:before {
+.flaticon-striped5:before {
 	content: "\e003";
-}
-.flaticon-magic4:before {
-	content: "\e004";
-}
-.flaticon-rocket1:before {
-	content: "\e005";
-}
-.flaticon-rocket12:before {
-	content: "\e006";
-}
-.flaticon-rocket60:before {
-	content: "\e007";
-}
-.flaticon-rocket61:before {
-	content: "\e008";
-}
-.flaticon-wizards:before {
-	content: "\e009";
 }

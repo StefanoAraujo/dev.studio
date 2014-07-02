@@ -38,23 +38,6 @@ YUI().use('node-base', 'node-event-delegate', 'autocomplete', 'autocomplete-high
 
     
 
-    //Autocomplete
-    var autocompleSources = APP_CONFIG.autoCompleteSources,
-        autocompleteConfig = [
-            {rootNode:'#demoif', source: autocompleSources.if},
-            {rootNode:'#demoon', source: autocompleSources.on},
-            {rootNode:'#demoto', source: autocompleSources.on},
-            {rootNode:'#demodo', source: autocompleSources.do}
-        ];
-
-    Y.each(autocompleteConfig, function(item){
-        Y.one(item.rootNode).plug(Y.Plugin.AutoComplete, {
-            resultHighlighter: 'phraseMatch',
-            resultFilters: 'phraseMatch',
-            activateFirstItem: true,
-            source: item.source
-        });
-    });
 
     // This just makes sure that the href="#" attached to the <a> elements
     // don't scroll you back up the page.
@@ -75,12 +58,12 @@ YUI().use('node-base', 'node-event-delegate', 'autocomplete', 'autocomplete-high
     //     Y.one('.collapse').toggleClass('in');
     // });
 
-    // //The menu items are smart behavior
-    // Y.one('body').delegate('click', function(e) {
-    //     if (!e.currentTarget.hasClass('pure-menu-selected')) {
-    //         Y.one('.header li.pure-menu-selected').removeClass('pure-menu-selected');
-    //         e.currentTarget.get('parentNode').addClass('pure-menu-selected');
-    //     }
-    // }, '.header li a');
+    //The menu items are smart behavior
+    Y.one('body').delegate('click', function(e) {
+        if (!e.currentTarget.hasClass('pure-menu-selected')) {
+            Y.one('#menu li.pure-menu-selected').removeClass('pure-menu-selected');
+            e.currentTarget.get('parentNode').addClass('pure-menu-selected');
+        }
+    }, '#menu li a');
 
 });
