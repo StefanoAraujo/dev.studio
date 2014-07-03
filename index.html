@@ -11,7 +11,7 @@
     <!-- Pure CSS Library -->
     <link rel="stylesheet" href="bower_components/pure/pure.css">
     <link rel="stylesheet" href="bower_components/pure-extras/css/pure-extras.css">
-   
+
     <!-- Pure CSS Custom layout -->
     <link rel="stylesheet" href="assets/css/main-grid.css">
     <link rel="stylesheet" href="assets/css/layouts/marketing.css">
@@ -26,38 +26,38 @@
     <!-- Animated CSS Animation Library -->
     <link rel="stylesheet" href="lib/animationcss/animate.css">
 
-    <!-- Pure Menu -->    
+    <!-- Pure Menu -->
     <link rel="stylesheet" href="lib/pure/css/side-menu-1.16.1.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/menu-collapse.css">
     <link rel="stylesheet" href="assets/css/custom.css">
-    
+
 </head>
 
 <body>
     <div id="layout">
-        
-    
+
+
         <a href="#menu" id="menuLink" class="menu-link">
-                <!-- Hamburger icon -->
-                <span></span>
+            <!-- Hamburger icon -->
+            <span></span>
         </a>
         <div id="menu" class="">
-                <div class="pure-menu pure-menu-open">
-                    <a class="pure-menu-heading" href="#">AniJS Studio</a>
+            <div class="pure-menu pure-menu-open">
+                <a class="pure-menu-heading" href="#">AniJS Studio</a>
 
-                    <ul>
-                        <li class="pure-menu-selected"><a href="#welcome">Welcome</a>
-                        </li>
-                        <li><a href="#intro">Overview</a>
-                        </li>
-                        <li><a href="#tryit">Examples</a>
-                        </li>
-                        <li><a href="#installing">Usage</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul>
+                    <li class="pure-menu-selected"><a href="#welcome">Welcome</a>
+                    </li>
+                    <li><a href="#intro">Overview</a>
+                    </li>
+                    <li><a href="#tryit">Examples</a>
+                    </li>
+                    <li><a href="#installing">Usage</a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="splash-container">
             <div class="balloon ball1" data-anijs="if: animationend, on: .splash-subhead, do: ball1-end, after: holdAnimClass;
@@ -89,202 +89,189 @@
                 </p>
             </div>
         </div>
+        <div class="content-wrapper">
+            <div id="intro" class="content">
+                <h2 class="content-head is-center" data-anijs="if: click, do: testingAnim">Overview</h2>
 
-            <div class="content-wrapper">
-                <div id="intro" class="content">
-                    <h2 class="content-head is-center" data-anijs="if: click, do: testingAnim">Overview</h2>
-                
-                    <div class="pure-g">
-                        <div class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
-                            <img class="pure-img" src="assets/img/overview.png"> 
-                        </div>
-                        <div class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
-                            <p>
-                                <strong>AniJS Studio</strong> is a chrome extension that will allow you to create, test, and add animations prototypes to any webpage, or web application easily.                        
+                <div class="pure-g">
+                    <div class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
+                        <img class="pure-img" src="assets/img/overview.png">
+                    </div>
+                    <div class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
+                        <p>
+                            <strong>AniJS Studio</strong> is a chrome extension that will allow you to create, test, and add animations prototypes to any webpage, or web application easily.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="tryit" class="ribbon l-box-lrg container-box pure-g">
+                <div id="try" class="pure-u-1 pure-u-med-1 pure-u-lrg-1 pure-g">
+                    <div class="l-box pure-u-1 pure-u-med-1-3 pure-u-lrg-1-3">
+                        <h3 class="content-subhead">
+                            <i class="fa fa-magic"></i>
+                            Intuitive User Interface
+                        </h3>
+                        <p>
+                            You will be able to add animations with a
+                            <span>few clicks</span> and without dealing with javascript or css code.
+                        </p>
+                    </div>
+
+                    <div class="l-box pure-u-1 pure-u-med-1-3 pure-u-lrg-1-3">
+                        <h3 class="content-subhead">
+                            <i class="fa fa-eye"></i>
+                            Instant visual feedback
+                        </h3>
+                        <p>
+                            You can see all changes in
+                            <span>real time</span>, in a
+                            <span>real enviroment</span> while you're working.
+                        </p>
+                    </div>
+
+                    <div class="l-box pure-u-1 pure-u-med-1-3 pure-u-lrg-1-3">
+                        <h3 class="content-subhead">
+                            <i class="fa fa-clipboard"></i>
+                            Easily integration
+                        </h3>
+                        <p>
+                            You can easily integrate it with your existing code,
+                            <span>just copy and paste</span> actions.
+                        </p>
+                    </div>
+                    <div class="l-box pure-u-1">
+                        <p>
+                            It is based on the
+                            <span>open source</span> library
+                            <strong><a href="http://anijs.github.io/" style="text-decoration: underline;color:white"> AniJS</a>
+                            </strong>, which is
+                            <span>compact</span> - around 7.7kb after gzipping, there is
+                            <span> no need for third party libraries</span>and supports all modern desktop and
+                            <span> mobile browsers</span>. You can find documentation and examples about it <a href="http://anijs.github.io/" style="text-decoration: underline;color:white"> here</a>.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div id="examples" class="content">
+                <h2 class="content-head is-center" data-anijs="if: click, do: testingAnim">Examples</h2>
+
+                <div class="pure-g">
+
+                    <div class="l-box pure-u-1 pure-u-med-1-3 pure-u-lrg-1-3">
+                        <a href="#">
+                            <img class="pure-img" src="assets/img/overview.png">
+                        </a>
+                        <p style="text-align:center; margin:0">Playful Google</p>
+                    </div>
+                    <div class="l-box pure-u-1 pure-u-med-1-3 pure-u-lrg-1-3">
+                        <a href="#">
+                            <img class="pure-img" src="assets/img/overview.png">
+                        </a>
+                        <p style="text-align:center; margin:0">Playful Google</p>
+                    </div>
+                    <div class="l-box pure-u-1 pure-u-med-1-3 pure-u-lrg-1-3">
+                        <a href="#">
+                            <img class="pure-img" src="assets/img/overview.png">
+                        </a>
+                        <p style="text-align:center; margin:0">Playful Google</p>
+                    </div>
+                    <div class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
+                        <p style="text-align: center;">
+                            <a href="https://www.youtube.com/playlist?list=PLUVvd_W7urmg5iEmCATQS4ekARgyshUZa" class="pure-button button-small pure-button-primary">More</a> 
+                        </p>
+
+                    </div>
+                    <div class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
+                        <p>
+                            Respond to the challenge and <a href="https://www.youtube.com/playlist?list=PLUVvd_W7urmg5iEmCATQS4ekARgyshUZa">submit</a> your own examples and share them with other developers.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div id="using" class="content">
+                <h2 class="content-head is-center">Usage</h2>
+                <div class="section pure-g-r">
+                    <h4 class="content-head is-center">Adding Animations</h4>
+                    <div class="center">
+
+                        <div class="pure-u-1">
+                            <p>To add the animations <a href="http://anijs.github.io/#tryit">AniJS  sintax</a> are used. You can select this values inspecting current webpage or type directly into input boxes.
                             </p>
+
+                            <img class="pure-img" src="assets/img/overview.png">
+
+
+
                         </div>
                     </div>
                 </div>
-                <div id="tryit" class="ribbon l-box-lrg container-box pure-g">
-                    <div id="try" class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
-                        <div class="l-box pure-u-1-1 pure-u-md-1-2 pure-u-lg-1-3">
-                            <h3 class="content-subhead">
-                                <i class="fa fa-magic"></i>
-                                Intuitive User Interface
-                            </h3>
-                            <p>
-                                You will be able to add animations with a <span>few clicks</span> and without dealing with javascript or css code.
-                            </p>
-                        </div>
-
-                        <div class="l-box pure-u-1-1 pure-u-md-1-2 pure-u-lg-1-3">
-                            <h3 class="content-subhead">
-                                <i class="fa fa-eye"></i>
-                                Instant visual feedback
-                            </h3>
-                            <p>
-                                You can see all changes in <span>real time</span>, in a <span>real enviroment</span> while you're working.
-                            </p>
-                        </div>
-
-                        <div class="l-box pure-u-1-1 pure-u-md-1-2 pure-u-lg-1-3">
-                            <h3 class="content-subhead">
-                                <i class="fa fa-clipboard"></i>
-                                Easily integration
-                            </h3>
-                            <p>
-                                You can easily integrate it with your existing code, <span>just copy and paste</span> actions. 
-                            </p>
-                        </div>
-                        <div class="l-box pure-u-1-1 pure-u-md-1-2 pure-u-lg-1-3">
-                            <p>
-                                It is based on the <span>open source</span> library <strong><a href="http://anijs.github.io/" style="text-decoration: underline;color:white">AniJS</a></strong>, which is <span>compact</span> - around 7.7kb after gzipping, there is <span>no need for third party libraries</span> and supports all modern desktop and <span>mobile browsers</span>. You can find documentation and examples about it <a href="http://anijs.github.io/" style="text-decoration: underline;color:white">here</a>.
-                            </p>
-                        </div>   
-
-                    </div>
-                </div>
-                <div id="examples" class="content">
-                    <h2 class="content-head is-center" data-anijs="if: click, do: testingAnim">Examples</h2>
-                
-                    <div class="pure-g">
-
-                        <div class="l-box pure-u-1-1 pure-u-md-1-2 pure-u-lg-1-3">
-                            <a href="#">
-                               <img class="pure-img" src="assets/img/overview.png">  
-                            </a>
-                            <p style="text-align:center; margin:0">Playful Google</p>
-                        </div>
-                        <div class="l-box pure-u-1-1 pure-u-md-1-2 pure-u-lg-1-3">
-                            <a href="#">
-                               <img class="pure-img" src="assets/img/overview.png">  
-                            </a>
-                            <p style="text-align:center; margin:0">Playful Google</p>
-                        </div>
-                        <div class="l-box pure-u-1-1 pure-u-md-1-2 pure-u-lg-1-3">
-                            <a href="#">
-                               <img class="pure-img" src="assets/img/overview.png">  
-                            </a>
-                            <p style="text-align:center; margin:0">Playful Google</p>
-                        </div>
-                        <div class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
-                            <p style="text-align: center;">
-                                <a href="https://www.youtube.com/playlist?list=PLUVvd_W7urmg5iEmCATQS4ekARgyshUZa" class="pure-button button-small pure-button-primary">More</a>                        
-                            </p>
-
-                        </div>
-                        <div class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
-                                            <p>
-                                Respond to the challenge and <a href="https://www.youtube.com/playlist?list=PLUVvd_W7urmg5iEmCATQS4ekARgyshUZa">submit</a> your own examples and share them with other developers.                    
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-
-
-        <!--         <div id="installing" class="content">
-                    <h2 class="content-head is-center">Installing</h2>
-
-                    <div class="section pure-g-r">
-                        <div class="center">
-                            <div class="pure-u-1 text-center">
-                                <a class="pure-button" href="https://github.com/anijs/anijs">
-                                    Fork on GitHub
-                                    <i class="fa fa-github"></i>
-                                </a>
-                                <a class="pure-button" href="https://github.com/anijs/anijs/archive/master.zip">
-                                    Download as ZIP
-                                    <i class="fa fa-floppy-o"></i>
-                                </a>
-                                <h3 class="content-subhead">Install the component using Bower</h3>
-                                <pre>$ bower install anijs</pre>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-                <div id="using" class="content">
-                    <h2 class="content-head is-center">Usage</h2>
-                    <div class="section pure-g-r">
-                        <h4 class="content-head is-center">Adding Animations</h4>
-                        <div class="center">
-
-                            <div class="pure-u-1">
-                                <p>To add the animations <a href="http://anijs.github.io/#tryit">AniJS  sintax</a> are used. You can select this values inspecting current webpage or type directly into input boxes.
-                                </p>
-
-                                <img class="pure-img" src="assets/img/overview.png">
-                            
-                                
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section pure-g-r">
-                        <h4 class="content-head is-center" style="margin-top:20px">Save and Integration</h4>
-                            <div class="pure-u-1">
-                                <p>
-                                    <strong>1</strong>-  Include the CSS animation styles definition, also you can download this from <a href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" target="_blank">
+                <div class="section pure-g-r">
+                    <h4 class="content-head is-center" style="margin-top:20px">Save and Integration</h4>
+                    <div class="pure-u-1">
+                        <p>
+                            <strong>1</strong>- Include the CSS animation styles definition, also you can download this from <a href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" target="_blank">
                                         Animate.css
                                     </a>
-                                </p>
-        <!-- Syntax Highlight -->
-        <div class="highlight highlight-xml"><pre><span class="nt">&lt;head&gt;</span>
-            <span class="c">&lt;!-- Animate.css library --&gt;</span>
-            <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"http://cdn.jsdelivr.net/animatecss/3.1.0/animate.css"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;/head&gt;</span>
-        </pre></div>
-        <!-- End Syntax Highlight -->
-                                <p>
-                                    <strong>2</strong>- Put the AniJS file on your page or load it from the <a href="http://www.jsdelivr.com/#!anijs" target="_blank">CDN</a>.
-                                </p>
-        <!-- Syntax Highlight -->
-        <div class="highlight highlight-xml" data-anijs="if: animationend, on: p.p-demo2, do: hinge"><pre><span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"anijs-min.js"</span><span class="nt">&gt;&lt;/script&gt;</span></pre></div>                        
-        <!-- End Syntax Highlight -->
-
-                                <p>
-                                    <strong>3</strong>- Add the HTML Node below in some place of your page.
-                                </p>
-
-        <!-- Syntax Highlight -->
-        <div class="highlight highlight-xml"><pre><span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"anijsdeclaration"</span><span class="nt"> <span class="na">type=</span><span class="s">"hidden"</span><span class="nt"> <span class="na">data-anijs=</span><span class="s">""</span><span class="nt">&gt;</span>
-        </pre></div>
-        <!-- End Syntax Highlight -->
-        <img class="pure-img" src="assets/img/overview.png">
-
-
-                            </div>
-                    </div>
-                </div>
-                <div class="content">
-                    <h2 class="content-head is-center">History</h2>
-                    <div class="section pure-g-r">
-                        <div class="center is-center">
-                            <div class="pure-u-1">
-                                <p>For detailed changelog, check <a href="https://github.com/anijs/anijs/releases">Releases</a>.</p>
-                            </div>
+                        </p>
+<!-- Syntax Highlight -->
+<div class="highlight highlight-xml"><pre><span class="nt">&lt;head&gt;</span>
+    <span class="c">&lt;!-- Animate.css library --&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"http://cdn.jsdelivr.net/animatecss/3.1.0/animate.css"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+</pre>
+</div>
+<!-- End Syntax Highlight -->
+                        <p>
+                            <strong>2</strong>- Put the AniJS file on your page or load it from the <a href="http://www.jsdelivr.com/#!anijs" target="_blank">CDN</a>.
+                        </p>
+                        <!-- Syntax Highlight -->
+                        <div class="highlight highlight-xml" data-anijs="if: animationend, on: p.p-demo2, do: hinge"><pre><span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"anijs-min.js"</span><span class="nt">&gt;&lt;/script&gt;</span></pre>
                         </div>
-                    </div>
-                </div>
-                <div class="content">
-                    <h2 class="content-head is-center">Aknowledgement</h2>
-                    <div class="section pure-g-r">
-                        <div class="center">
-                            <div class="pure-u-1">
-                                <p>To <a href="mailto:anisilv@gmail.com">Ms. Ana Silvia Tellería</a>, <a href="http://www.linkedin.com/pub/marisniulkis-lescaille/59/3a/55"> Ms. Marisniulkis Lescaille</a>,<a href="mailto:gallego@gmail.com">Mr. Yolier Galán</a>, <a href="mailto:voltusv@gmail.com">Mr. René González</a>, <a href="juliorubcan@gmail.com">Mr. Julio Cañizares</a>, <a href="https://twitter.com/caridy">Mr. Caridy Patino</a> and to all the persons that helped with this project.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer l-box is-center">
-                    Made with
-                    <span class="bounceIn animated infinite">♥</span> by <a href="https://twitter.com/dariel_noel">@dariel_noel</a>.
-                </div>
+                        <!-- End Syntax Highlight -->
 
+                        <p>
+                            <strong>3</strong>- Add the HTML Node below in some place of your page.
+                        </p>
+
+                        <!-- Syntax Highlight -->
+                        <div class="highlight highlight-xml"><pre><span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"anijsdeclaration"</span><span class="nt"> <span class="na">type=</span><span class="s">"hidden"</span><span class="nt"> <span class="na">data-anijs=</span><span class="s">""</span><span class="nt">&gt;</span>
+        </pre>
+                        </div>
+                        <!-- End Syntax Highlight -->
+                        <img class="pure-img" src="assets/img/overview.png">
+
+
+                    </div>
+                </div>
             </div>
+            <div class="content">
+                <h2 class="content-head is-center">History</h2>
+                <div class="section pure-g-r">
+                    <div class="center is-center">
+                        <div class="pure-u-1">
+                            <p>For detailed changelog, check <a href="https://github.com/anijs/anijs/releases">Releases</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <h2 class="content-head is-center">Aknowledgement</h2>
+                <div class="section pure-g-r">
+                    <div class="center">
+                        <div class="pure-u-1">
+                            <p>To <a href="mailto:anisilv@gmail.com">Ms. Ana Silvia Tellería</a>, <a href="http://www.linkedin.com/pub/marisniulkis-lescaille/59/3a/55"> Ms. Marisniulkis Lescaille</a>,<a href="mailto:gallego@gmail.com">Mr. Yolier Galán</a>, <a href="mailto:voltusv@gmail.com">Mr. René González</a>, <a href="juliorubcan@gmail.com">Mr. Julio Cañizares</a>, <a href="https://twitter.com/caridy">Mr. Caridy Patino</a> and to all the persons that helped with this project.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer l-box is-center">
+                Made with
+                <span class="bounceIn animated infinite">♥</span>by <a href="https://twitter.com/dariel_noel">@dariel_noel</a>.
+            </div>
+
+        </div>
     </div>
     <!-- YUI3 Framework -->
     <script src="../framework/yui3/3.11.0/build/yui/yui-min.js"></script>
@@ -299,7 +286,7 @@
     </script>
 
     <script src="lib/pure/js/side-menu-1.16.1.js"></script>
-    
+
 
     <!-- App Scripts-->
     <script src="config/appconfig.js"></script>
@@ -315,7 +302,8 @@
     //   ga('create', 'UA-44521541-4', 'anijs.github.io');
     //   ga('send', 'pageview');
 
-    // </script>
+    //
+    </script>
 </body>
 
 </html>
