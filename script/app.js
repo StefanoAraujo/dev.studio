@@ -66,4 +66,18 @@ YUI().use('node-base', 'node-event-delegate', 'autocomplete', 'autocomplete-high
         }
     }, '#menu li a');
 
+    Y.one(window).on('load', function() 
+    {
+       // executes when complete page is fully loaded, including all frames, objects and images
+       // alert("(window).load was called - window is loaded!");
+    });
+
+    var AniJSDefaultHelper = AniJS.getHelper();
+
+    // AniJSDefaultHelper.testFunction = function(e, animationContext){
+    //     console.log('joder');
+    //     console.log(animationContext);
+    //     animationContext.run();
+    // }    
+
 });

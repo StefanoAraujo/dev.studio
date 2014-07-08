@@ -5,16 +5,27 @@
 	url("flaticon.woff") format("woff"),
 	url("flaticon.ttf") format("truetype"),
 	url("flaticon.svg") format("svg");
+	src: local(Flaticon), url("flaticon.ttf");
 	font-weight: normal;
 	font-style: normal;
 }
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 30px;
+    font-style: normal;
+    margin-left: 20px;
+}
+
+/*[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
 	font-family: Flaticon;
         font-size: 20px;
 font-style: normal;
 margin-left: 20px;
-}.flaticon-air1:before {
+}*/
+
+.flaticon-air1:before {
 	content: "\e000";
 }
 .flaticon-chrome4:before {
