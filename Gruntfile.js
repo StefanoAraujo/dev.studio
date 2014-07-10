@@ -23,14 +23,14 @@ module.exports = function(grunt) {
 						'!lib/font-awesome',
 						'script/**/*'
 					],
-				dest: '../anijs.github.io/',
+				dest: '../studio/',
 				options: {
 				}
 			},
 
 			hmlOverwriteLocalDependencyLoad: {
 				src: ['index.html'],
-				dest: '../anijs.github.io/',
+				dest: '../studio/',
 				options: {
 					process: function (content, srcpath) {
 
@@ -41,7 +41,7 @@ module.exports = function(grunt) {
 
 						var AniJS = {
 							local: /<script src="..\/..\/anijs\/src\/anijs.js"><\/script>/g,
-							prod: '<script src="http://cdn.jsdelivr.net/anijs/0.4.0/anijs.js"></script>'
+							prod: '<script src="lib/anijs/anijs.js"></script>'
 						};
 
 						var PureCSS = {
